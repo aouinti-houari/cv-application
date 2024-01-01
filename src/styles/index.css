@@ -1,0 +1,138 @@
+* {
+  box-sizing: content-box;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  margin-top: 2px;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.manage-example {
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: #555;
+  color: #CCC;
+}
+
+.personal-details,
+.education-details,
+.experience-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.manage-example {
+  height: 50px;
+  font-size: 1.1rem;
+}
+
+.manage-example li {
+  cursor: pointer;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.personal-details,
+.education-details,
+.experience-details {
+  width: 350px;
+  height: 250px;
+  background-color: #555;
+  color: #CCC;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.personal-details label,
+.education-details label,
+.experience-details label {
+  font-size: 1.1rem;
+}
+
+.personal-details input,
+.education-details input,
+.experience-details input {
+  margin-bottom: 2px;
+  width: 95%;
+  height: 35px;
+}
+
+.education-details {
+  height: 350px;
+}
+
+.experience-details {
+  height: 500px;
+}
+.experience-details textarea {
+  height: 300px;
+  width: 95%;
+  resize: none;
+}
+
+.resume-container {  
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 60%;
+}
+
+.resume-container header {
+  background-color: #555;
+  color: #CCC;
+}
+
+.resume-container h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.resume-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.resume-container h3 {
+  background-color: #555;
+  color: #CCC;
+  padding: 15px;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.resume-container div {
+  width: 80%;
+  margin: 20px 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resume-container div ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-container .cv-infos {
+  flex-shrink: 0;
+}
